@@ -1,0 +1,194 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FileData.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:FileData.Fakes.ShimFileDataResult">
+            <summary>Shim type of FileData.FileDataResult</summary>
+        </member>
+        <member name="M:FileData.Fakes.ShimFileDataResult.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FileData.Fakes.ShimFileDataResult.#ctor(FileData.FileDataResult)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FileData.Fakes.ShimFileDataResult.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FileData.Fakes.ShimFileDataResult.AllInstances.ResultMessageGet">
+            <summary>Sets the shim of FileDataResult.get_ResultMessage()</summary>
+        </member>
+        <member name="P:FileData.Fakes.ShimFileDataResult.AllInstances.ResultMessageSetString">
+            <summary>Sets the shim of FileDataResult.set_ResultMessage(String value)</summary>
+        </member>
+        <member name="P:FileData.Fakes.ShimFileDataResult.AllInstances.StatusGet">
+            <summary>Sets the shim of FileDataResult.get_Status()</summary>
+        </member>
+        <member name="P:FileData.Fakes.ShimFileDataResult.AllInstances.StatusSetBoolean">
+            <summary>Sets the shim of FileDataResult.set_Status(Boolean value)</summary>
+        </member>
+        <member name="M:FileData.Fakes.ShimFileDataResult.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FileData.Fakes.ShimFileDataResult.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FileData.Fakes.ShimFileDataResult.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FileData.Fakes.ShimFileDataResult.Constructor">
+            <summary>Sets the shim of FileDataResult.FileDataResult()</summary>
+        </member>
+        <member name="P:FileData.Fakes.ShimFileDataResult.ResultMessageGet">
+            <summary>Sets the shim of FileDataResult.get_ResultMessage()</summary>
+        </member>
+        <member name="P:FileData.Fakes.ShimFileDataResult.ResultMessageSetString">
+            <summary>Sets the shim of FileDataResult.set_ResultMessage(String value)</summary>
+        </member>
+        <member name="P:FileData.Fakes.ShimFileDataResult.StatusGet">
+            <summary>Sets the shim of FileDataResult.get_Status()</summary>
+        </member>
+        <member name="P:FileData.Fakes.ShimFileDataResult.StatusSetBoolean">
+            <summary>Sets the shim of FileDataResult.set_Status(Boolean value)</summary>
+        </member>
+        <member name="T:FileData.Fakes.ShimFileDataUtility">
+            <summary>Shim type of FileData.FileDataUtility</summary>
+        </member>
+        <member name="M:FileData.Fakes.ShimFileDataUtility.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FileData.Fakes.ShimFileDataUtility.#ctor(FileData.FileDataUtility)">
+            <summary>Initializes a new shim for the given instance</summary>
+        </member>
+        <member name="T:FileData.Fakes.ShimFileDataUtility.AllInstances">
+            <summary>Define shims for all instances members</summary>
+        </member>
+        <member name="P:FileData.Fakes.ShimFileDataUtility.AllInstances.CommandsActionsGet">
+            <summary>Sets the shim of FileDataUtility.get_CommandsActions()</summary>
+        </member>
+        <member name="P:FileData.Fakes.ShimFileDataUtility.AllInstances.CommandsActionsSetDictionaryOfStringArrayFuncOfStringArrayString">
+            <summary>Sets the shim of FileDataUtility.set_CommandsActions(Dictionary`2&lt;String[],Func`2&lt;String[],String&gt;&gt; value)</summary>
+        </member>
+        <member name="P:FileData.Fakes.ShimFileDataUtility.AllInstances.ExecuteStringArray">
+            <summary>Sets the shim of FileDataUtility.Execute(String[] args)</summary>
+        </member>
+        <member name="P:FileData.Fakes.ShimFileDataUtility.AllInstances.FileDetailsGet">
+            <summary>Sets the shim of FileDataUtility.get_FileDetails()</summary>
+        </member>
+        <member name="P:FileData.Fakes.ShimFileDataUtility.AllInstances.FileDetailsSetFileDetails">
+            <summary>Sets the shim of FileDataUtility.set_FileDetails(FileDetails value)</summary>
+        </member>
+        <member name="P:FileData.Fakes.ShimFileDataUtility.AllInstances.GetArgumentGroupString">
+            <summary>Sets the shim of FileDataUtility.GetArgumentGroup(String key)</summary>
+        </member>
+        <member name="P:FileData.Fakes.ShimFileDataUtility.AllInstances.LoadCommandsActions">
+            <summary>Sets the shim of FileDataUtility.LoadCommandsActions()</summary>
+        </member>
+        <member name="P:FileData.Fakes.ShimFileDataUtility.AllInstances.ValidateStringArray">
+            <summary>Sets the shim of FileDataUtility.Validate(String[] args)</summary>
+        </member>
+        <member name="P:FileData.Fakes.ShimFileDataUtility.AllInstances._LoadCommandsActionsb__9_0StringArray">
+            <summary>Sets the shim of FileDataUtility.&lt;LoadCommandsActions&gt;b__9_0(String[] args)</summary>
+        </member>
+        <member name="P:FileData.Fakes.ShimFileDataUtility.AllInstances._LoadCommandsActionsb__9_1StringArray">
+            <summary>Sets the shim of FileDataUtility.&lt;LoadCommandsActions&gt;b__9_1(String[] args)</summary>
+        </member>
+        <member name="M:FileData.Fakes.ShimFileDataUtility.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FileData.Fakes.ShimFileDataUtility.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FileData.Fakes.ShimFileDataUtility.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FileData.Fakes.ShimFileDataUtility.CommandsActionsGet">
+            <summary>Sets the shim of FileDataUtility.get_CommandsActions()</summary>
+        </member>
+        <member name="P:FileData.Fakes.ShimFileDataUtility.CommandsActionsSetDictionaryOfStringArrayFuncOfStringArrayString">
+            <summary>Sets the shim of FileDataUtility.set_CommandsActions(Dictionary`2&lt;String[],Func`2&lt;String[],String&gt;&gt; value)</summary>
+        </member>
+        <member name="P:FileData.Fakes.ShimFileDataUtility.Constructor">
+            <summary>Sets the shim of FileDataUtility.FileDataUtility()</summary>
+        </member>
+        <member name="P:FileData.Fakes.ShimFileDataUtility.ExecuteStringArray">
+            <summary>Sets the shim of FileDataUtility.Execute(String[] args)</summary>
+        </member>
+        <member name="P:FileData.Fakes.ShimFileDataUtility.FileDetailsGet">
+            <summary>Sets the shim of FileDataUtility.get_FileDetails()</summary>
+        </member>
+        <member name="P:FileData.Fakes.ShimFileDataUtility.FileDetailsSetFileDetails">
+            <summary>Sets the shim of FileDataUtility.set_FileDetails(FileDetails value)</summary>
+        </member>
+        <member name="P:FileData.Fakes.ShimFileDataUtility.GetArgumentGroupString">
+            <summary>Sets the shim of FileDataUtility.GetArgumentGroup(String key)</summary>
+        </member>
+        <member name="P:FileData.Fakes.ShimFileDataUtility.LoadCommandsActions">
+            <summary>Sets the shim of FileDataUtility.LoadCommandsActions()</summary>
+        </member>
+        <member name="P:FileData.Fakes.ShimFileDataUtility.ValidateStringArray">
+            <summary>Sets the shim of FileDataUtility.Validate(String[] args)</summary>
+        </member>
+        <member name="P:FileData.Fakes.ShimFileDataUtility._LoadCommandsActionsb__9_0StringArray">
+            <summary>Sets the shim of FileDataUtility.&lt;LoadCommandsActions&gt;b__9_0(String[] args)</summary>
+        </member>
+        <member name="P:FileData.Fakes.ShimFileDataUtility._LoadCommandsActionsb__9_1StringArray">
+            <summary>Sets the shim of FileDataUtility.&lt;LoadCommandsActions&gt;b__9_1(String[] args)</summary>
+        </member>
+        <member name="T:FileData.Fakes.ShimProgram">
+            <summary>Shim type of FileData.Program</summary>
+        </member>
+        <member name="M:FileData.Fakes.ShimProgram.#ctor">
+            <summary>Initializes a new shim instance</summary>
+        </member>
+        <member name="M:FileData.Fakes.ShimProgram.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="M:FileData.Fakes.ShimProgram.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FileData.Fakes.ShimProgram.Behavior">
+            <summary>Assigns the behavior for all methods of the shimmed type</summary>
+        </member>
+        <member name="P:FileData.Fakes.ShimProgram.MainStringArray">
+            <summary>Sets the shim of Program.Main(String[] args)</summary>
+        </member>
+        <member name="T:FileData.Fakes.StubFileDataResult">
+            <summary>Stub type of FileData.FileDataResult</summary>
+        </member>
+        <member name="M:FileData.Fakes.StubFileDataResult.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:FileData.Fakes.StubFileDataResult.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:FileData.Fakes.StubFileDataResult.InitializeStub">
+            <summary>Initializes a new instance of type StubFileDataResult</summary>
+        </member>
+        <member name="P:FileData.Fakes.StubFileDataResult.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FileData.Fakes.StubFileDataResult.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+        <member name="T:FileData.Fakes.StubFileDataUtility">
+            <summary>Stub type of FileData.FileDataUtility</summary>
+        </member>
+        <member name="M:FileData.Fakes.StubFileDataUtility.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="P:FileData.Fakes.StubFileDataUtility.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="M:FileData.Fakes.StubFileDataUtility.InitializeStub">
+            <summary>Initializes a new instance of type StubFileDataUtility</summary>
+        </member>
+        <member name="P:FileData.Fakes.StubFileDataUtility.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="P:FileData.Fakes.StubFileDataUtility.InstanceObserver">
+            <summary>Gets or sets the instance observer.</summary>
+        </member>
+    </members>
+</doc>
